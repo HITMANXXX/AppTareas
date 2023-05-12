@@ -41,7 +41,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-## -------------Aplicacion Tareas---------------------
+## -------------Aplicacion Tareas-----------
 
 Esta es una aplicacion lo cual nos permite Crear, actualizar y eliminar tareas y asignarlas a un usuario. Creada Laravel 10 y Vue 3 con Inertia.js. Se usa el sistema de autenticación Laravel Breeze.
 
@@ -52,7 +52,7 @@ Grafica de Usuarios con sus tareas asignadas por medio de vue-chartjs y reporte 
 Se utiliza Factory para crear registros tanto de usuarios como de tareas de prueba.
 
 
-## -------------------------instalacion------------------------------------###
+## -------------Instalacion-----------------
 
 - Crear una base de datos mysql
 
