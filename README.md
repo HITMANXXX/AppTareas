@@ -33,6 +33,53 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
+##Aplicacion de Tareas
+
+Esta es una aplicacion lo cual nos permite Crear, actualizar y eliminar tareas y asignarlas a un usuario. Creada Laravel 10 y Vue 3 con Inertia.js. Se usa el sistema de autenticación Laravel Breeze.
+
+Crud Para las tareas y los empleados con paginacion para la lista de empleados.
+
+Grafica de Usuarios con sus tareas asignadas por medio de vue-chartjs y reporte de usuarios y tareas con de Datatables.
+
+Se utiliza Factory para crear registros tanto de usuarios como de tareas de prueba.
+
+
+##Instalación:
+
+- Crear una base de datos mysql
+
+- Clonar o descargar el proyecto
+
+- Acceder mediante terminal a la carpeta del proyecto
+
+Ejecutar:  Composer install
+
+Crear el archivo .env con los comandos:  cp .env.example .env
+
+Generar la API key ejecutando:  php artisan key:generate 
+
+En el archivo .env colocar el nombre de la base de datos
+
+Para ejecutar las migraciones: php artisan migrate --seed
+
+Ejecutar npm install para las dependencias de node.js
+
+Ejecutar npm run dev y php artisan serve para visualizarlo en el navegador o puedes usar Laragon, xammp, etc.
+
+Tabla Tareas
+id
+titulo
+descripcion
+
+
+Tabla Usuarios
+id
+nombre
+email
+telefono
+tareas_id
+
+
 ### Premium Partners
 
 - **[Vehikl](https://vehikl.com/)**
